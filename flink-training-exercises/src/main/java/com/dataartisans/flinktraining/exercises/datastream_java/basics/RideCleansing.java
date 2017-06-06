@@ -40,7 +40,7 @@ public class RideCleansing {
 	public static void main(String[] args) throws Exception {
 
 		ParameterTool params = ParameterTool.fromArgs(args);
-		final String input = params.getRequired("input");
+		//final String input = params.getRequired("input");
 
 		final int maxEventDelay = 60;       // events are out of order by max 60 seconds
 		final int servingSpeedFactor = 600; // events of 10 minutes are served in 1 second
@@ -51,7 +51,7 @@ public class RideCleansing {
 
 		// start the data generator
 		DataStream<TaxiRide> rides = env.addSource(
-				new TaxiRideSource(input, maxEventDelay, servingSpeedFactor));
+				new TaxiRideSource("C:\\Users\\Varsha Kirani\\Documents\\Work\\DFKI\\LearningFlink\\nycTaxiRides.gz", maxEventDelay, servingSpeedFactor));
 
 		DataStream<TaxiRide> filteredRides = rides
 				// filter out rides that do not start or stop in NYC
