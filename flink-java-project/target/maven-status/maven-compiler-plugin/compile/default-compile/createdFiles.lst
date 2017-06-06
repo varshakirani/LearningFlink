@@ -2,5 +2,9 @@ org\apache\flink\quickstart\WordCount$LineSplitter.class
 org\apache\flink\quickstart\WordCount.class
 org\apache\flink\quickstart\SocketTextStreamWordCount.class
 org\apache\flink\quickstart\BatchJob.class
+org\apache\flink\quickstart\TaxiRideFiltering$checkInNYC.class
+org\apache\flink\quickstart\Demo1$1.class
+org\apache\flink\quickstart\Demo1.class
 org\apache\flink\quickstart\StreamingJob.class
+org\apache\flink\quickstart\TaxiRideFiltering.class
 org\apache\flink\quickstart\SocketTextStreamWordCount$LineSplitter.class
