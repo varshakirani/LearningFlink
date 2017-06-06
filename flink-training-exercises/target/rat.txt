@@ -1,0 +1,93 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-06-06T14:09:41+02:00
+Notes: 1
+Binaries: 0
+Archives: 0
+Standards: 55
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  N     LICENSE
+  AL2 pom.xml
+  AL2 src/main/java/com/dataartisans/flinktraining/dataset_preparation/MBoxParser.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/dataset_java/mail_count/MailCount.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/dataset_java/reply_graph/ReplyGraph.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/dataset_java/tf_idf/MailTFIDF.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/basics/RideCleansing.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/connectors/PopularPlacesFromKafka.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/connectors/PopularPlacesToES.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/connectors/RideCleansingToKafka.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/datatypes/ConnectedCarEvent.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/datatypes/Customer.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/datatypes/EnrichedTrade.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/datatypes/GapSegment.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/datatypes/Segment.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/datatypes/StoppedSegment.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/datatypes/TaxiRide.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/datatypes/Trade.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/process/CarEventSort.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/process/EventTimeJoinFunction.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/process/LowLatencyEventTimeJoin.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/sources/CheckpointedTaxiRideSource.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/sources/FinSources.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/sources/TaxiRideSource.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/state/TravelTimePrediction.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/utils/CompareByTimestampAscending.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/utils/ConnectedCarAssigner.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/utils/GeoUtils.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/utils/influxdb/DataPoint.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/utils/influxdb/InfluxDBSink.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/utils/influxdb/KeyedDataPoint.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/utils/TaxiRideSchema.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/utils/TravelTimePredictionModel.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/windows/DrivingSegments.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/windows/DrivingSessions.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/windows/PopularPlaces.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/gelly_java/PageRankWithEdgeWeights.java
+  AL2 src/main/java/com/dataartisans/flinktraining/exercises/table_java/memberotm/MemberOTMonth.java
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/dataset_scala/mail_count/MailCount.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/dataset_scala/reply_graph/ReplyGraph.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/dataset_scala/tf_idf/MailTFIDF.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/datastream_scala/basics/RideCleansing.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/datastream_scala/connectors/PopularPlacesFromKafka.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/datastream_scala/connectors/PopularPlacesToES.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/datastream_scala/connectors/RideCleansingToKafka.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/datastream_scala/lowlatencyjoin/EventTimeJoinFunction.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/datastream_scala/lowlatencyjoin/EventTimeJoinHelper.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/datastream_scala/lowlatencyjoin/LowLatencyEventTimeJoin.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/datastream_scala/sources/FinSources.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/datastream_scala/state/TravelTimePrediction.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/datastream_scala/windows/PopularPlaces.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/gelly_scala/PageRankWithEdgeWeights.scala
+  AL2 src/main/scala/com/dataartisans/flinktraining/exercises/table_scala/memberotm/MemberOTMonth.scala
+  AL2 src/main/scripts/convertTrips.sh
+  AL2 tools/maven/checkstyle.xml
+  AL2 tools/maven/settings.xml
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

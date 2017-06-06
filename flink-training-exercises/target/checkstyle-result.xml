@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\dataset_preparation\MBoxParser.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\dataset_java\mail_count\MailCount.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\dataset_java\reply_graph\ReplyGraph.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\dataset_java\tf_idf\MailTFIDF.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\basics\RideCleansing.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\connectors\PopularPlacesFromKafka.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\connectors\PopularPlacesToES.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\connectors\RideCleansingToKafka.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\datatypes\ConnectedCarEvent.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\datatypes\Customer.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\datatypes\EnrichedTrade.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\datatypes\GapSegment.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\datatypes\Segment.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\datatypes\StoppedSegment.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\datatypes\TaxiRide.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\datatypes\Trade.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\process\CarEventSort.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\process\EventTimeJoinFunction.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\process\LowLatencyEventTimeJoin.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\sources\CheckpointedTaxiRideSource.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\sources\FinSources.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\sources\TaxiRideSource.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\state\TravelTimePrediction.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\utils\CompareByTimestampAscending.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\utils\ConnectedCarAssigner.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\utils\GeoUtils.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\utils\influxdb\DataPoint.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\utils\influxdb\InfluxDBSink.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\utils\influxdb\KeyedDataPoint.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\utils\TaxiRideSchema.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\utils\TravelTimePredictionModel.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\windows\DrivingSegments.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\windows\DrivingSessions.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\datastream_java\windows\PopularPlaces.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\gelly_java\PageRankWithEdgeWeights.java">
+</file>
+<file name="C:\Users\Varsha Kirani\Documents\Work\DFKI\LearningFlink\flink-training-exercises\src\main\java\com\dataartisans\flinktraining\exercises\table_java\memberotm\MemberOTMonth.java">
+</file>
+</checkstyle>

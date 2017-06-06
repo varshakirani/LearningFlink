@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/flink-java-project/flink-java-project.iml" filepath="$PROJECT_DIR$/flink-java-project/flink-java-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-training-exercises/flink-training-exercises.iml" filepath="$PROJECT_DIR$/flink-training-exercises/flink-training-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-java-project/target/maven-archiver/maven-archiver (1).iml" filepath="$PROJECT_DIR$/flink-java-project/target/maven-archiver/maven-archiver (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-training-exercises/target/maven-archiver/maven-archiver (2).iml" filepath="$PROJECT_DIR$/flink-training-exercises/target/maven-archiver/maven-archiver (2).iml" />
+    </modules>
+  </component>
+</project>

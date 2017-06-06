@@ -1,0 +1,15 @@
+com.dataartisans.flinktraining.dataset_preparation
+com.dataartisans.flinktraining.exercises.dataset_java.mail_count
+com.dataartisans.flinktraining.exercises.dataset_java.reply_graph
+com.dataartisans.flinktraining.exercises.dataset_java.tf_idf
+com.dataartisans.flinktraining.exercises.datastream_java.basics
+com.dataartisans.flinktraining.exercises.datastream_java.connectors
+com.dataartisans.flinktraining.exercises.datastream_java.datatypes
+com.dataartisans.flinktraining.exercises.datastream_java.process
+com.dataartisans.flinktraining.exercises.datastream_java.sources
+com.dataartisans.flinktraining.exercises.datastream_java.state
+com.dataartisans.flinktraining.exercises.datastream_java.utils
+com.dataartisans.flinktraining.exercises.datastream_java.utils.influxdb
+com.dataartisans.flinktraining.exercises.datastream_java.windows
+com.dataartisans.flinktraining.exercises.gelly_java
+com.dataartisans.flinktraining.exercises.table_java.memberotm
