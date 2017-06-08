@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b04e809-c966-440d-bb39-cf6b21364b59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/TaxiPopularPlaces.java" afterPath="$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/TaxiPopularPlaces.java" />
-    </list>
+    <list default="true" id="4b04e809-c966-440d-bb39-cf6b21364b59" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/flink-java-project/target/" />
     <ignored path="$PROJECT_DIR$/flink-training-exercises/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
