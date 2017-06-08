@@ -1,0 +1,6 @@
+Import a text file by connecting to it
+Click the cell where you want to put the data from the text file.
+On the Data tab, in the Get External Data group, click From Text/CSV.
+Locate and double-click the text file that you want to import. ...
+In the Import Data dialog box, do the following: ...
+Click OK.

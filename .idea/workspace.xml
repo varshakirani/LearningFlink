@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b04e809-c966-440d-bb39-cf6b21364b59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/Demo2.java" afterPath="$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/Demo2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/flink-java-project/target/" />
     <ignored path="$PROJECT_DIR$/flink-training-exercises/target/" />
@@ -49,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaxiPopularPlaces.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TaxiPopularPlaces.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/TaxiPopularPlaces.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -64,15 +64,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Demo2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/Demo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="252">
+              <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#593#601#0" expanded="true" />
+                <element signature="e#603#611#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecutionEnvironment.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.2.0/flink-java-1.2.0.jar!/org/apache/flink/api/java/ExecutionEnvironment.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="230" column="15" lean-forward="false" selection-start-line="230" selection-start-column="15" selection-end-line="230" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -330,38 +340,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningFlink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flink-java-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="results" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningFlink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flink-java-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -402,6 +380,9 @@
       <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="readFile&#9;PSI&#9;JAVA://org.apache.flink.api.java.ExecutionEnvironment#readFile&#10;readfile&#9;null&#9;null&#10;fileInput&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.FileInputFormat" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -780,6 +761,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4b04e809-c966-440d-bb39-cf6b21364b59" name="Default" comment="" />
@@ -921,17 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/Demo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#593#601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/TaxiPopularPlaces.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -941,6 +914,41 @@
             <element signature="e#2119#2189#0" expanded="true" />
             <element signature="e#2329#2633#0" expanded="true" />
             <element signature="e#2632#2633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-scala_2.10/1.2.0/flink-scala_2.10-1.2.0.jar!/org/apache/flink/api/scala/ExecutionEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-shaded-hadoop2/1.2.0/flink-shaded-hadoop2-1.2.0.jar!/org/apache/hadoop/mapred/FileInputFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.2.0/flink-java-1.2.0.jar!/org/apache/flink/api/java/ExecutionEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="230" column="15" lean-forward="false" selection-start-line="230" selection-start-column="15" selection-end-line="230" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/Demo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#603#611#0" expanded="true" />
           </folding>
         </state>
       </provider>
