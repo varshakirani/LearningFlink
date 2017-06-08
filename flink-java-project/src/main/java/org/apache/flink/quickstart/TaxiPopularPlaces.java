@@ -28,22 +28,38 @@ public class TaxiPopularPlaces {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
-
+        final int popularityThreshold = 20;
         final int maxDelay = 60; //events are out of order by max 60seconds
         final int servingSpeed = 6000; //events of 100 minutes are served in 1 second
         DataStream<TaxiRide> rides = env.addSource(new TaxiRideSource("C:\\Users\\Varsha Kirani\\Documents\\Work\\DFKI\\LearningFlink\\nycTaxiRides.gz",maxDelay,servingSpeed));
 
-        DataStream<Tuple4<Integer,Long,Boolean,Integer>> gridPlaces = rides
+        DataStream<Tuple5<Float,Float,Long,Boolean,Integer>> gridPlaces = rides
                 .filter(new TaxiRideFiltering.checkInNYC())
                 .map(new GridCell())
                 .<KeyedStream < Tuple2 <Integer, Boolean>, Tuple2 <Integer,Boolean> > >keyBy(0,1)
                 .timeWindow(Time.minutes(15),Time.minutes(5))
-                .apply(new placeCounter());
+                .apply(new placeCounter())
+                .filter(new FilterFunction<Tuple4<Integer, Long, Boolean, Integer>>() {
+                    @Override
+                    public boolean filter(Tuple4<Integer, Long, Boolean, Integer> place) throws Exception {
+                        return place.f3 > popularityThreshold;
+                    }
+                })
+                .map(new fetchCoordinates());
 
 
 
             gridPlaces.print();
             env.execute();
+    }
+    public static class fetchCoordinates implements MapFunction<Tuple4<Integer,Long,Boolean,Integer> , Tuple5<Float,Float,Long,Boolean,Integer>>{
+
+        @Override
+        public Tuple5<Float, Float, Long, Boolean, Integer> map(Tuple4<Integer, Long, Boolean, Integer> input) throws Exception {
+            Float lon = GeoUtils.getGridCellCenterLon(input.f0) ;
+            Float lat = GeoUtils.getGridCellCenterLon(input.f0);
+            return new Tuple5<>(lon,lat,input.f1,input.f2,input.f3);
+        }
     }
 
     public static class GridCell implements MapFunction <TaxiRide, Tuple2<Integer,Boolean>>{

@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b04e809-c966-440d-bb39-cf6b21364b59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flink-java-project/target/classes/org/apache/flink/quickstart/TaxiPopularPlaces$GridCell.class" afterPath="$PROJECT_DIR$/flink-java-project/target/classes/org/apache/flink/quickstart/TaxiPopularPlaces$GridCell.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flink-java-project/target/classes/org/apache/flink/quickstart/TaxiPopularPlaces.class" afterPath="$PROJECT_DIR$/flink-java-project/target/classes/org/apache/flink/quickstart/TaxiPopularPlaces.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/TaxiPopularPlaces.java" afterPath="$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/TaxiPopularPlaces.java" />
     </list>
     <ignored path="$PROJECT_DIR$/flink-java-project/target/" />
@@ -46,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/flink-training-exercises/src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/utils/GeoUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <caret line="157" column="4" lean-forward="false" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -55,11 +52,13 @@
       <file leaf-file-name="TaxiPopularPlaces.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/TaxiPopularPlaces.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="286">
+              <caret line="44" column="61" lean-forward="false" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2072#2142#0" expanded="true" />
+                <element signature="e#2119#2189#0" expanded="true" />
+                <element signature="e#2329#2633#0" expanded="true" />
+                <element signature="e#2632#2633#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -769,7 +768,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -854,14 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-training-exercises/src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/utils/GeoUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink-training-exercises/src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/basics/RideCleansing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -886,13 +877,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flink-training-exercises/src/main/java/com/dataartisans/flinktraining/exercises/datastream_java/utils/GeoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="157" column="4" lean-forward="false" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flink-java-project/src/main/java/org/apache/flink/quickstart/TaxiPopularPlaces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="286">
+          <caret line="44" column="61" lean-forward="false" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2072#2142#0" expanded="true" />
+            <element signature="e#2119#2189#0" expanded="true" />
+            <element signature="e#2329#2633#0" expanded="true" />
+            <element signature="e#2632#2633#0" expanded="true" />
           </folding>
         </state>
       </provider>
