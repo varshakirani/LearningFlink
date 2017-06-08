@@ -26,7 +26,7 @@ public class TaxiRideFiltering {
         DataStream<TaxiRide> rides = env.addSource(new TaxiRideSource("C:\\Users\\Varsha Kirani\\Documents\\Work\\DFKI\\LearningFlink\\nycTaxiRides.gz",maxDelay,servingSpeed));
 
         DataStream<TaxiRide> filteredRides = rides.filter(new checkInNYC());
-        filteredRides.writeAsCsv("C:\\Users\\Varsha Kirani\\Documents\\Work\\DFKI\\LearningFlink\\flink-java-project\\target\\results\\TaxiRideFiltering.csv");
+        filteredRides.writeAsText("C:\\Users\\Varsha Kirani\\Documents\\Work\\DFKI\\LearningFlink\\flink-java-project\\target\\results\\TaxiRideFiltering.txt");
         env.execute();
 
     }
